@@ -1,0 +1,49 @@
+.aboutus{
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+}
+.aboutus h2 {
+    text-align: center;
+}
+.advantage_items {
+    display: grid;
+    justify-items: center;
+}
+.slider {
+    width: 635px;
+    overflow: hidden;
+
+}
+.polosa {
+    display: flex;
+    width: 1905px;
+    position: relative;
+    transition: all ease 1s;
+    left: 0;
+}
+.advantage_item h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.advantage_item p {
+    width: 607px;
+    height: 239px;
+    border: 4px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.slider_buttons_wrap {
+    margin-top: 10px;
+    display: grid;
+    justify-items: center;
+}
+.slider_buttons {
+    display: inline-block;
+}
+.slider_buttons img {
+    width: 50px;
+}
+
+
