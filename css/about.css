@@ -44,6 +44,10 @@
 }
 .slider_buttons img {
     width: 50px;
+    
+}
+.slider_buttons img:hover {
+    box-shadow: 0 0 5px blue;
 }
 
 
