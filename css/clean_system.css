@@ -34,6 +34,10 @@
 }
 .water_img img {
     width: 50px;
+    transition: all ease .3s;
+}
+.water_img img:hover {
+    width: 60px;
 }
 .clean_text {
     display: flex;
@@ -43,8 +47,9 @@
     position: relative;
     display: grid;
     align-items: end;
-    justify-items: end;
+    justify-items: center;
 }
 .clean_box_right img{
+    margin-top: 50px;
     display: block;
 }
