@@ -4,7 +4,7 @@ $(document).ready(function() {
         var textComment = $('#commentText').val();
         // console.log(usernameComment);
         // console.log(textComment);
-        $('<p id="commentName">' + usernameComment + '</p>').appendTo('.comments_name');
-        $('<p id="commentNewText">' + textComment + '</p>').appendTo('.comments_name');
+        $('<div class="comments_item"><p id="commentName">' + usernameComment + '</p>' + '<p id="commentNewText">' + textComment + '</p></div>').appendTo('.comments');
+        // $('<p id="commentNewText">' + textComment + '</p>').appendTo('.comments_name');
     })
 });
