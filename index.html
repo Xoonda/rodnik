@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="./css/rewievs.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/map.css">
     <link rel="stylesheet" href="./css/clean_system.css">
@@ -98,8 +99,6 @@
                     </div>
                     <div class="slider_buttons_wrap">
                         <div class="slider_buttons">
-                            <!-- <img src="img/aboutus/left.png" id="slideRight">
-                            <img src="img/aboutus/right.png" id="slideLeft"> -->
                             <input type="button" id="slideRight" value="<">
                             <input type="button" id="slideLeft" value=">">
 
@@ -166,6 +165,32 @@
             </div>
         </div>
     </div>
+    <div class="rewievs_wrap">
+        <div class="wrapper">
+            <div class="rewievs">
+                <div class="rewievs_boxes">
+                    <div class="leftbox">
+                        <form onsubmit="return false">
+                            <label>Добавьте ваш отзыв</label>
+                                <p>Введите ваше имя:</p>
+                                <textarea name="useName" id="userName"></textarea>
+                                <p>Ваш отзыв:</p>
+                                <textarea name="commenttext" id="commentText"></textarea>
+                                <input type="submit" name="sendComment" id="sendComment">
+                        </form>
+                    </div>
+                    <div class="rightbox">
+                        <div class="comments">
+                            <div class="comments_name">
+                                <p id="commentName">Алексей:</p>
+                                <p id="commentNewText">Всегда использую её! Без накипи и ржавчины!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
     <div class="footer">
         <h3>Design by Xoonda</h3>
     </div>
@@ -173,6 +198,7 @@
 <script src="libs/jquery-3.5.1.min.js"></script>
 <script src="libs/main.js"></script>
 <script src="libs/clean_system.js"></script>
+<script src="./libs/rewievs.js"></script>
 </body>
 
 </html>

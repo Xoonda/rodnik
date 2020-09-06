@@ -1,0 +1,17 @@
+.rewievs_wrap {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background:#f8f8f8;
+}
+.rewievs_boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comments_name {
+    background: green;
+    padding: 25px;
+}
+#commentNewText {
+    margin-top: 25px;
+}
