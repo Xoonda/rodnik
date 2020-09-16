@@ -24,7 +24,11 @@
 .box_items {
     display: grid;
     grid-template-columns: 1fr 5fr;
-
+    transition: ease all .5s;
+}
+.box_items:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
 }
 .water_img {
     display: flex;

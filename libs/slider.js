@@ -1,22 +1,14 @@
 
+let pos = 0;
 document.getElementById('slideLeft').onclick = gotoleft;
 document.getElementById('slideRight').onclick = gotoright;
-let pos = 0;
-// $('#slideRight').on('mouseover', function () {
-//     if (pos == 0) {
-//         console.log(pos);
-//         $(this).attr('disabled', '');
-//     } else if (pos != 0) {
-//         $(this).attr('disabled', 'false');
-//     }
-// })
+// document.getElementById('advantage_box').addEventListener('mouseover', () => {
+//     console.log('1')
+//             if (pos != 0) {
+//                 document.getElementById('advantage_box').setAttribute('disabled', false);
+//             }
+//         })
 
-// $('#slideRight[type="button"]').on('mouseover', function () {
-        
-            
-//             $('#slideRight[type="button"]').prop('disabled', false);
-        
-//     })
 function gotoright () {
     pos = pos + 635;
     if ( pos == 1905 ) {
@@ -41,3 +33,15 @@ function gotoleft () {
     polosa.style.left = pos + 'px';
     console.log(pos);
 }
+// checkPos = () => {
+//     if (pos == 0) {
+//         $('#slideRight').attr('disabled', 'disabled');
+//     } else {
+//         $('#slideright').attr('disabled', 'false');
+//     }
+// }
+// function disabled () {
+//     document.getElementById('advantage_box').addEventListener('mouseover', () => {
+//         console.log('hello');
+//     })
+// }

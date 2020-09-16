@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $('.water_img img').on('click', function () {
+    $('.box_items').on('mouseover', function () {
         let attr = $(this).attr('data-path');
-        console.log(attr);
+        // console.log(attr);
         $('#waterman').attr('src', attr);
     })  
 })

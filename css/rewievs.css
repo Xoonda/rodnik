@@ -9,6 +9,12 @@
     justify-content: space-between;
     align-items: center;
 }
+.leftbox {
+    margin-left: 100px;
+}
+.rightbox {
+    margin-right: 100px;
+}
 .comments_item {
     background: rgb(12, 196, 12,.3);
     padding: 10px;
