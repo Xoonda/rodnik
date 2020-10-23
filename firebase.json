@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "site": "arzrodniktest",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "emulators": {
+    "hosting": {
+      "host": "localhost",
+      "port": "4000"
+    }
+  }
+  
+}
+
